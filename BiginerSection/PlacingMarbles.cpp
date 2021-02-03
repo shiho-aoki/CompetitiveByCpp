@@ -1,7 +1,7 @@
 #include<iostream>
 using namespace std;
 int main(){
-    char s[3];
+    string s;
     int count=0,i;
     cin >> s;
     for (i=0;i<3;i++){
