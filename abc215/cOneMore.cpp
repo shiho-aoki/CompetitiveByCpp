@@ -2,6 +2,12 @@
 #include<iostream>
 #include <algorithm>
 
+#include<bits/stdc++.h>
+
+/**
+ * @fn
+ * これは本番中でかいたやつで、例題にはACしますがWAです。一部TELも出します。なんてことだ。。
+ */
 using namespace std;
 int gcd(int a_i, int k){
     int r, tmp;
@@ -50,3 +56,7 @@ int main(){
     }
     return 0;
 }
+
+/**
+ * 以下正しい
+ */
