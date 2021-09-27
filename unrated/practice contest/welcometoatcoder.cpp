@@ -5,7 +5,8 @@ int main() {
     int a, b, c, total;
     string s;
     cin >> a;
-    cin >> b, c;
+    // cin >> b, c; //this code make bug, b,c cannot read interger divide with space
+    cin >> b >> c;
     cin >> s;
     total = a+b+c;
     cout << total << endl;
