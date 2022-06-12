@@ -4,7 +4,8 @@ using namespace std;
 
 int main () {
     int N, S;
-    int counter=0;
+    // int counter=0; it's an mistake of var
+    long long counter=0;
     cin >> N >> S;
 
     int red_i, blue_i;
